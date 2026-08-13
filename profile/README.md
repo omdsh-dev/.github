@@ -3,6 +3,11 @@
 > 社区自建的非官方 DeepSeek 相关插件收录组织  
 > An unofficial, community-run catalog of DeepSeek-related plugins
 
+## 参与社区 / Join the Community
+
+- [社区参与指南、插件收录与成员申请 / Community guide, plugin submissions, and contributor onboarding](https://github.com/omdsh-dev/community)
+- [公开讨论、提问与建议 / Public discussions, questions, and ideas](https://github.com/orgs/omdsh-dev/discussions)
+
 ## 中文说明
 
 ### 关于本组织
