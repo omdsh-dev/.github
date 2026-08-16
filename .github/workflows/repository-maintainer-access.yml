@@ -1,0 +1,37 @@
+name: Repository maintainer access
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Audit only or enforce registered Admin access
+        required: true
+        default: audit
+        type: choice
+        options:
+          - audit
+          - enforce
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repository-maintainer-access
+  cancel-in-progress: false
+
+jobs:
+  access-policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Audit or enforce maintainer access
+        env:
+          GH_TOKEN: ${{ secrets.OMDSH_ADMIN_TOKEN }}
+          MODE: ${{ github.event_name == 'schedule' && 'enforce' || inputs.mode }}
+        run: node scripts/repository-maintainer-access.mjs governance/repository-maintainers.json "$MODE"
