@@ -1,55 +1,68 @@
-# omdsh-dev
+<div align="center">
 
-> 社区自建的非官方 DeepSeek 相关插件收录组织  
-> An unofficial, community-run catalog of DeepSeek-related plugins
+# Oh My DSH
 
-## 参与社区 / Join the Community
+### 为 DeepSeek Harness 而生的社区插件生态
 
-- [社区参与指南、插件收录与成员申请 / Community guide, plugin submissions, and contributor onboarding](https://github.com/omdsh-dev/community)
-- [公开讨论、提问与建议 / Public discussions, questions, and ideas](https://github.com/orgs/omdsh-dev/discussions)
+**Community-built plugins, tools, and experiments for DeepSeek Harness.**
 
-## 中文说明
+[发现插件](https://hub.omdsh.dev) · [参与社区](https://github.com/omdsh-dev/community) · [讨论与求助](https://github.com/orgs/omdsh-dev/discussions) · [提交项目](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)
 
-### 关于本组织
-
-`omdsh-dev` 是由社区成员自发创建和维护的非官方组织，主要用于收录、整理和展示包括 **DeepSeek Harness** 在内的 DeepSeek 相关社区插件与资源。
-
-本组织与 DeepSeek 官方及其关联主体不存在隶属、授权、合作、赞助或背书关系。本组织及其所收录的插件均不应被理解为 DeepSeek 的官方组织、官方产品或官方发行版本。插件名称中对“DeepSeek”的引用仅用于说明其相关性、兼容性或适用对象，不表示任何官方关系。
-
-### 权利与署名
-
-“DeepSeek”名称、商标、品牌标识、官方模型，以及由 DeepSeek 官方发布的项目、文档和其他材料，其相关权利归 **DeepSeek 官方及相应权利人**所有。
-
-各社区插件（包括 DeepSeek Harness）的源代码、文档、设计及其他原创内容，其著作权和其他知识产权归相应的**插件开发者或权利人**所有，并以各插件仓库中公布的许可证、版权声明和使用条款为准。
-
-本组织仅对插件信息进行收录和展示。任何插件被本组织收录，均不会导致其著作权、商标权或其他权利发生转让，也不代表本组织取得了该插件的所有权。
-
-### 收录与免责声明
-
-插件被收录不代表 DeepSeek 官方或本组织对其作出授权、认证、审核、推荐或背书。本组织不对所收录插件的安全性、准确性、可用性、兼容性、合规性或持续维护作出任何明示或默示保证。
-
-使用者应自行查阅相关插件的许可证、文档和风险说明，并自行判断是否适合使用。如对插件收录、署名、权利归属或潜在侵权问题有异议，请通过本组织的公开渠道联系我们，我们将及时核查并妥善处理。
+</div>
 
 ---
 
-## English Notice
+## 从这里开始 · Start here
 
-### About This Organization
+| 我想…… | 入口 |
+|---|---|
+| 发现、比较和浏览社区插件 | **[OMDSH Hub](https://hub.omdsh.dev)** |
+| 安装一组实用工具 | **[dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit)** |
+| 开发或提交自己的插件 | **[贡献指南](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)** |
+| 展示项目、提问或提出想法 | **[Community Discussions](https://github.com/orgs/omdsh-dev/discussions)** |
+| 了解社区如何协作 | **[Community Hub](https://github.com/omdsh-dev/community)** |
 
-`omdsh-dev` is an unofficial organization created and maintained by community members. It primarily catalogs, organizes, and showcases DeepSeek-related community plugins and resources, including **DeepSeek Harness**.
+## 精选项目 · Featured projects
 
-This organization is not affiliated with, authorized by, partnered with, sponsored by, or endorsed by DeepSeek or any of its affiliates. Neither this organization nor the plugins listed here should be understood as an official DeepSeek organization, product, or distribution. References to “DeepSeek” in plugin names are solely descriptive of relevance, compatibility, or intended use and do not imply any official relationship.
+| 项目 | 能做什么 |
+|---|---|
+| **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | 可扩展的侧边栏底座，为文件、终端、Git 和子代理提供统一工作区 |
+| **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | 在输入框中搜索并引用工作区文件 |
+| **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** | 在对话中渲染交互式布局、图表、表单、3D 场景和动作循环 |
+| **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | 可生成、保存、治理、观察和恢复的多 Agent 工作流层 |
+| **[DSH Hub](https://github.com/omdsh-dev/dsh-hub)** | 社区项目的发现、讨论和导航入口 |
+| **[Community](https://github.com/omdsh-dev/community)** | 参与指南、项目提案、兼容协作和社区治理 |
 
-### Rights and Attribution
+## 探索生态 · Explore the ecosystem
 
-The DeepSeek name, trademarks, branding, official models, and materials officially released by DeepSeek remain the property of **DeepSeek and their respective rights holders**.
+| 方向 | 示例项目 |
+|---|---|
+| **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [GenUI](https://github.com/omdsh-dev/dsh-genui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
+| **Agent 与工作流** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
+| **开发者工具** | [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
+| **研究与数据** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
+| **集成与通知** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
+| **安全与诊断** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
 
-Copyright and other intellectual property rights in each community plugin—including the source code, documentation, designs, and other original content of DeepSeek Harness—remain with the plugin's **respective developer(s) or rights holder(s)**, subject to the license, copyright notices, and terms published in that plugin's repository.
+## 社区原则 · How we work
 
-This organization only catalogs and displays information about these plugins. Listing a plugin does not transfer its copyright, trademark rights, ownership, or any other rights to this organization.
+- **项目自治：**技术决定由各仓库维护者负责，组织提供发现与协作空间。
+- **作者所有：**代码、文档和设计的权利归各项目开发者或相应权利人。
+- **收录不等于认证：**请独立核对来源、许可证、兼容性和运行风险。
+- **开放参与：**公开参与不要求组织成员身份；权限只随明确责任授予。
+- **轻量治理：**常规工作快速推进，高影响事项保留审阅、记录与撤回路径。
 
-### Listing and Disclaimer
+## 加入我们 · Join the community
 
-Inclusion does not constitute authorization, certification, review, recommendation, or endorsement by DeepSeek or this organization. No express or implied warranty is made regarding any listed plugin's security, accuracy, availability, compatibility, compliance, or continued maintenance.
+你可以从一次提问、一个插件展示、一份兼容性报告或一个小型 PR 开始：
 
-Users should review each plugin's license, documentation, and risk notices and independently determine whether it is suitable for their use. If you have a concern regarding a listing, attribution, ownership, or potential infringement, please contact us through this organization's public channels so that we can review and address it promptly.
+- [阅读参与指南](https://github.com/omdsh-dev/community/blob/main/onboarding/README.zh-CN.md)
+- [展示插件或项目](https://github.com/orgs/omdsh-dev/discussions/categories/show-and-tell)
+- [报告兼容性问题](https://github.com/omdsh-dev/community/issues/new/choose)
+- [查看社区治理与角色](https://github.com/omdsh-dev/community/blob/main/GOVERNANCE.zh-CN.md)
+
+---
+
+<sub>Oh My DSH 是独立、非官方的社区项目，与 DeepSeek 及其关联主体不存在隶属、授权、合作、赞助或背书关系。项目被展示或收录不代表安全、兼容性或持续维护保证。请参阅[完整权利声明与免责声明](NOTICE.md)。</sub>
+
+<sub>Oh My DSH is an independent, unofficial community initiative and is not affiliated with, authorized by, sponsored by, or endorsed by DeepSeek. Listing does not constitute security or compatibility certification. See the [full notice and disclaimer](NOTICE.md).</sub>
