@@ -44,31 +44,6 @@
 | **集成与通知** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **安全与诊断** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
 
-## 维护者与创作者 · Maintainers & Creators
-
-Oh My DSH 尊重项目自治与作者署名。公开维护关系以
-[`repository-maintainers.json`](https://github.com/omdsh-dev/.github/blob/main/governance/repository-maintainers.json)
-为准。
-
-### [@Zacklinkk](https://github.com/Zacklinkk)
-
-Creator and maintainer of:
-
-[dsh-longbridge](https://github.com/omdsh-dev/dsh-longbridge) ·
-[dsh-fun-ticker](https://github.com/omdsh-dev/dsh-fun-ticker) ·
-[dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) ·
-[dsh-revive](https://github.com/omdsh-dev/dsh-revive) ·
-[dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) ·
-[dsh-paddle-ocr](https://github.com/omdsh-dev/dsh-paddle-ocr) ·
-[dsh-ernie-image](https://github.com/omdsh-dev/dsh-ernie-image) ·
-[dsh-voice-funasr](https://github.com/omdsh-dev/dsh-voice-funasr) ·
-[dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) ·
-[dsh-fun-weather](https://github.com/omdsh-dev/dsh-fun-weather) ·
-[dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) ·
-[dsh-pet-corner](https://github.com/omdsh-dev/dsh-pet-corner) ·
-[awesome-deepseek-harness-desktop](https://github.com/omdsh-dev/awesome-deepseek-harness-desktop) ·
-[dsh-deep-sleep](https://github.com/omdsh-dev/dsh-deep-sleep)
-
 ## 社区原则 · How we work
 
 - **项目自治：**技术决定由各仓库维护者负责，组织提供发现与协作空间。
