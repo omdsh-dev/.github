@@ -33,7 +33,7 @@ Share what you build, exchange practical experience, and turn ideas into project
 |---|---|
 | **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | An extensible sidebar workspace for files, terminal, Git, and subagents |
 | **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | Search and reference workspace files from the input box |
-| **[DSH TUI](https://github.com/omdsh-dev/dsh-tui)** | Use DeepSeek Harness from the terminal, with conversations, tool calls, and session status |
+| **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** | An interactive terminal plugin for DeepSeek Harness, with a pixel whale, streaming thinking, session rewind, and live status |
 | **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | Generate, save, govern, observe, and recover multi-agent workflows |
 | **[Community](https://github.com/omdsh-dev/community)** | Participation guides, project proposals, compatibility coordination, and community governance |
 
@@ -41,7 +41,7 @@ Share what you build, exchange practical experience, and turn ideas into project
 
 | Area | Example projects |
 |---|---|
-| **Interface and interaction** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [DSH TUI](https://github.com/omdsh-dev/dsh-tui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
+| **Interface and interaction** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agents and workflows** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
 | **Developer tools** | [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **Research and data** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
