@@ -33,7 +33,7 @@
 |---|---|
 | **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | 可扩展的侧边栏底座，为文件、终端、Git 和子代理提供统一工作区 |
 | **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | 在输入框中搜索并引用工作区文件 |
-| **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** | 在对话中渲染交互式布局、图表、表单、3D 场景和动作循环 |
+| **[DSH TUI](https://github.com/omdsh-dev/dsh-tui)** | 在终端里使用 DeepSeek Harness，查看对话、工具调用与会话状态 |
 | **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | 可生成、保存、治理、观察和恢复的多 Agent 工作流层 |
 | **[Community](https://github.com/omdsh-dev/community)** | 参与指南、项目提案、兼容协作和社区治理 |
 
@@ -41,7 +41,7 @@
 
 | 方向 | 示例项目 |
 |---|---|
-| **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [GenUI](https://github.com/omdsh-dev/dsh-genui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
+| **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [DSH TUI](https://github.com/omdsh-dev/dsh-tui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agent 与工作流** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
 | **开发者工具** | [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **研究与数据** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
