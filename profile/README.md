@@ -6,7 +6,7 @@
 
 **Community-built plugins, tools, and experiments for DeepSeek Harness.**
 
-[发现插件](https://hub.omdsh.dev) · [参与社区](https://github.com/omdsh-dev/community) · [讨论与求助](https://github.com/orgs/omdsh-dev/discussions) · [提交项目](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)
+[社区官网](https://omdsh.dev) · [发现插件](https://hub.omdsh.dev) · [参与社区](https://github.com/omdsh-dev/community) · [讨论与求助](https://github.com/orgs/omdsh-dev/discussions) · [提交项目](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)
 
 </div>
 
