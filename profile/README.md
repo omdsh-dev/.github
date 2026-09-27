@@ -1,28 +1,33 @@
 <div align="center">
 
+<a href="https://omdsh.dev/"><img src="https://raw.githubusercontent.com/omdsh-dev/.github/main/profile/assets/mascot.png" width="96" height="96" alt="Oh My DSH：亲亲表情拥抱黑白虎鲸"></a>
+
 # Oh My DSH
 
-### 为 DeepSeek Harness 而生的社区插件生态
+**简体中文** · [English](https://github.com/omdsh-dev/.github/blob/main/profile/README.en.md)
 
-**Community-built plugins, tools, and experiments for DeepSeek Harness.**
+### 为 DeepSeek Harness 而生的独立开发者社区
 
-[社区官网](https://omdsh.dev) · [发现插件](https://hub.omdsh.dev) · [参与社区](https://github.com/omdsh-dev/community) · [讨论与求助](https://github.com/orgs/omdsh-dev/discussions) · [提交项目](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)
+一起做插件，做工具，也做点不一样的。
+
+围绕 DeepSeek Harness，分享社区作品、交流使用经验，让好点子成为可以一起改进的项目。
+
+[社区官网](https://omdsh.dev/) · [社区项目](https://github.com/omdsh-dev?tab=repositories) · [参与社区](https://github.com/omdsh-dev/community/blob/main/README.zh-CN.md) · [讨论与求助](https://github.com/orgs/omdsh-dev/discussions) · [提交项目](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)
 
 </div>
 
 ---
 
-## 从这里开始 · Start here
+## 从这里开始
 
 | 我想…… | 入口 |
 |---|---|
-| 发现、比较和浏览社区插件 | **[OMDSH Hub](https://hub.omdsh.dev)** |
-| 安装一组实用工具 | **[dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit)** |
+| 浏览社区作品 | **[精选项目](https://omdsh.dev/#projects)** · [全部仓库](https://github.com/omdsh-dev?tab=repositories) |
 | 开发或提交自己的插件 | **[贡献指南](https://github.com/omdsh-dev/community/blob/main/CONTRIBUTING.zh-CN.md)** |
-| 展示项目、提问或提出想法 | **[Community Discussions](https://github.com/orgs/omdsh-dev/discussions)** |
-| 了解社区如何协作 | **[Community Hub](https://github.com/omdsh-dev/community)** |
+| 展示项目、提问或提出想法 | **[社区讨论](https://github.com/orgs/omdsh-dev/discussions)** |
+| 了解社区如何协作 | **[社区文档](https://github.com/omdsh-dev/community/blob/main/README.zh-CN.md)** |
 
-## 精选项目 · Featured projects
+## 精选项目
 
 | 项目 | 能做什么 |
 |---|---|
@@ -30,10 +35,9 @@
 | **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | 在输入框中搜索并引用工作区文件 |
 | **[DSH GenUI](https://github.com/omdsh-dev/dsh-genui)** | 在对话中渲染交互式布局、图表、表单、3D 场景和动作循环 |
 | **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | 可生成、保存、治理、观察和恢复的多 Agent 工作流层 |
-| **[DSH Hub](https://github.com/omdsh-dev/dsh-hub)** | 社区项目的发现、讨论和导航入口 |
 | **[Community](https://github.com/omdsh-dev/community)** | 参与指南、项目提案、兼容协作和社区治理 |
 
-## 探索生态 · Explore the ecosystem
+## 探索生态
 
 | 方向 | 示例项目 |
 |---|---|
@@ -44,7 +48,7 @@
 | **集成与通知** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **安全与诊断** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
 
-## 社区原则 · How we work
+## 社区原则
 
 - **项目自治：**技术决定由各仓库维护者负责，组织提供发现与协作空间。
 - **作者所有：**代码、文档和设计的权利归各项目开发者或相应权利人。
@@ -52,7 +56,7 @@
 - **开放参与：**公开参与不要求组织成员身份；权限只随明确责任授予。
 - **轻量治理：**常规工作快速推进，高影响事项保留审阅、记录与撤回路径。
 
-## 加入我们 · Join the community
+## 加入我们
 
 你可以从一次提问、一个插件展示、一份兼容性报告或一个小型 PR 开始：
 
@@ -63,6 +67,4 @@
 
 ---
 
-<sub>Oh My DSH 是独立、非官方的社区项目，与 DeepSeek 及其关联主体不存在隶属、授权、合作、赞助或背书关系。项目被展示或收录不代表安全、兼容性或持续维护保证。请参阅[完整权利声明与免责声明](NOTICE.md)。</sub>
-
-<sub>Oh My DSH is an independent, unofficial community initiative and is not affiliated with, authorized by, sponsored by, or endorsed by DeepSeek. Listing does not constitute security or compatibility certification. See the [full notice and disclaimer](NOTICE.md).</sub>
+<sub>Oh My DSH 是独立、非官方的社区项目，与 DeepSeek 及其关联主体不存在隶属、授权、合作、赞助或背书关系。项目被展示或收录不代表安全、兼容性或持续维护保证。请参阅[完整权利声明与免责声明](https://github.com/omdsh-dev/.github/blob/main/profile/NOTICE.md)。</sub>
