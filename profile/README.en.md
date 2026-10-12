@@ -34,8 +34,11 @@ Share what you build, exchange practical experience, and turn ideas into project
 | **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | An extensible sidebar workspace for files, terminal, Git, and subagents |
 | **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | Search and reference workspace files from the input box |
 | **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** | An interactive terminal plugin for DeepSeek Harness, with a pixel whale, streaming thinking, session rewind, and live status |
+| **[dsh-context](https://github.com/bowenliang123/dsh-context)** | A context visualization plugin by [bowenliang123](https://github.com/bowenliang123) for composition, token usage, evolution, and compaction/pruning events |
 | **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | Generate, save, govern, observe, and recover multi-agent workflows |
 | **[Community](https://github.com/omdsh-dev/community)** | Participation guides, project proposals, compatibility coordination, and community governance |
+
+Thank you to dsh-context author [bowenliang123](https://github.com/bowenliang123) for personally supporting our first Beijing community meetup.
 
 ## Explore the ecosystem
 
@@ -43,7 +46,7 @@ Share what you build, exchange practical experience, and turn ideas into project
 |---|---|
 | **Interface and interaction** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agents and workflows** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
-| **Developer tools** | [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
+| **Developer tools** | [dsh-context](https://github.com/bowenliang123/dsh-context) · [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **Research and data** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
 | **Integrations and notifications** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **Security and diagnostics** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |

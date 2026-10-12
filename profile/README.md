@@ -34,8 +34,11 @@
 | **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | 可扩展的侧边栏底座，为文件、终端、Git 和子代理提供统一工作区 |
 | **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | 在输入框中搜索并引用工作区文件 |
 | **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** | DeepSeek Harness 交互式终端插件，提供像素鲸鱼、流式思考、会话回滚与实时状态 |
+| **[dsh-context](https://github.com/bowenliang123/dsh-context)** | [bowenliang123](https://github.com/bowenliang123) 开发的上下文可视化插件，查看组成、Token 用量、演进与压缩／剪枝事件 |
 | **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | 可生成、保存、治理、观察和恢复的多 Agent 工作流层 |
 | **[Community](https://github.com/omdsh-dev/community)** | 参与指南、项目提案、兼容协作和社区治理 |
+
+感谢 dsh-context 作者 [bowenliang123](https://github.com/bowenliang123) 以个人名义支持社区首次北京聚会。
 
 ## 探索生态
 
@@ -43,7 +46,7 @@
 |---|---|
 | **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agent 与工作流** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
-| **开发者工具** | [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
+| **开发者工具** | [dsh-context](https://github.com/bowenliang123/dsh-context) · [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **研究与数据** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
 | **集成与通知** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **安全与诊断** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
