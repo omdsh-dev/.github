@@ -29,14 +29,16 @@ Share what you build, exchange practical experience, and turn ideas into project
 
 ## Featured projects
 
+Six projects selected for practical value, engineering depth, active maintenance, and community interest.
+
 | Project | What it does |
 |---|---|
-| **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | An extensible sidebar workspace for files, terminal, Git, and subagents |
-| **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | Search and reference workspace files from the input box |
 | **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** | An interactive terminal plugin for DeepSeek Harness, with a pixel whale, streaming thinking, session rewind, and live status |
+| **[Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | An extensible workspace for files, terminal, Git, and subagents |
 | **[dsh-context](https://github.com/bowenliang123/dsh-context)** | A context visualization plugin by [bowenliang123](https://github.com/bowenliang123) for composition, token usage, evolution, and compaction/pruning events |
-| **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | Generate, save, govern, observe, and recover multi-agent workflows |
-| **[Community](https://github.com/omdsh-dev/community)** | Participation guides, project proposals, compatibility coordination, and community governance |
+| **[Browser](https://github.com/omdsh-dev/dsh-browser)** | Connect an already signed-in browser for web tasks using structured page information and authorized actions |
+| **[GenUI](https://github.com/omdsh-dev/dsh-genui)** | Interactive charts, forms, and visual replies, with user actions fed back to the agent |
+| **[Mnemon](https://github.com/omdsh-dev/dsh-mnemon)** | Composable long-term agent memory with extensible sources, layered organization, and change review |
 
 Thank you to dsh-context author [bowenliang123](https://github.com/bowenliang123) for personally supporting our first Beijing community meetup.
 
@@ -44,11 +46,11 @@ Thank you to dsh-context author [bowenliang123](https://github.com/bowenliang123
 
 | Area | Example projects |
 |---|---|
-| **Interface and interaction** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
+| **Interface and interaction** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [GenUI](https://github.com/omdsh-dev/dsh-genui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agents and workflows** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
 | **Developer tools** | [dsh-context](https://github.com/bowenliang123/dsh-context) · [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **Research and data** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
-| **Integrations and notifications** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
+| **Integrations and notifications** | [Browser](https://github.com/omdsh-dev/dsh-browser) · [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **Security and diagnostics** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
 
 ## How we work

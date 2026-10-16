@@ -29,14 +29,16 @@
 
 ## 精选项目
 
+综合实用价值、工程深度、维护活跃度与社区关注度，精选六个项目。
+
 | 项目 | 能做什么 |
 |---|---|
-| **[DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | 可扩展的侧边栏底座，为文件、终端、Git 和子代理提供统一工作区 |
-| **[DSH @File](https://github.com/omdsh-dev/dsh-at-file)** | 在输入框中搜索并引用工作区文件 |
 | **[dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)** | DeepSeek Harness 交互式终端插件，提供像素鲸鱼、流式思考、会话回滚与实时状态 |
+| **[Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)** | 可扩展的工作区底座，为文件、终端、Git 和子代理提供统一界面 |
 | **[dsh-context](https://github.com/bowenliang123/dsh-context)** | [bowenliang123](https://github.com/bowenliang123) 开发的上下文可视化插件，查看组成、Token 用量、演进与压缩／剪枝事件 |
-| **[DSH Workflow](https://github.com/omdsh-dev/dsh_workflow)** | 可生成、保存、治理、观察和恢复的多 Agent 工作流层 |
-| **[Community](https://github.com/omdsh-dev/community)** | 参与指南、项目提案、兼容协作和社区治理 |
+| **[Browser](https://github.com/omdsh-dev/dsh-browser)** | 连接已有登录状态的浏览器，通过结构化页面信息与授权操作完成网页任务 |
+| **[GenUI](https://github.com/omdsh-dev/dsh-genui)** | 将对话回复变成交互式图表、表单和可视化界面，把用户操作反馈给 Agent |
+| **[Mnemon](https://github.com/omdsh-dev/dsh-mnemon)** | 可组合的 Agent 长期记忆，支持扩展记忆源、分层组织与变更审阅 |
 
 感谢 dsh-context 作者 [bowenliang123](https://github.com/bowenliang123) 以个人名义支持社区首次北京聚会。
 
@@ -44,11 +46,11 @@
 
 | 方向 | 示例项目 |
 |---|---|
-| **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
+| **界面与交互** | [Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) · [GenUI](https://github.com/omdsh-dev/dsh-genui) · [Annotation](https://github.com/omdsh-dev/dsh-annotation) |
 | **Agent 与工作流** | [Workflow](https://github.com/omdsh-dev/dsh_workflow) · [Advisor](https://github.com/omdsh-dev/dsh-advisor) · [Mnemon](https://github.com/omdsh-dev/dsh-mnemon) |
 | **开发者工具** | [dsh-context](https://github.com/bowenliang123/dsh-context) · [@File](https://github.com/omdsh-dev/dsh-at-file) · [Plugin Check](https://github.com/omdsh-dev/dsh-plugin-check) · [Plugin Dev](https://github.com/omdsh-dev/dsh-plugin-dev) |
 | **研究与数据** | [Deep Research](https://github.com/omdsh-dev/dsh-deep-research) · [Data Agent](https://github.com/omdsh-dev/dsh-data-agent) |
-| **集成与通知** | [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
+| **集成与通知** | [Browser](https://github.com/omdsh-dev/dsh-browser) · [Lark](https://github.com/omdsh-dev/dsh-lark) · [Notifications](https://github.com/omdsh-dev/dsh-notification) · [Open in VS Code](https://github.com/omdsh-dev/dsh-open-in-vscode) |
 | **安全与诊断** | [Security Audit](https://github.com/omdsh-dev/dsh-security-audit) · [Session Health](https://github.com/omdsh-dev/dsh-session-health) |
 
 ## 社区原则
