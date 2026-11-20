@@ -1,0 +1,43 @@
+name: Member invite
+
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+    inputs:
+      login:
+        description: "GitHub login to invite (dry-run by default)"
+        required: true
+      mode:
+        description: "Run mode"
+        required: true
+        default: dry-run
+        type: choice
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  invite:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.action == 'labeled' && github.event.label.name == 'approved')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - name: Invite applicant
+        env:
+          GH_TOKEN: ${{ secrets.OMDSH_ADMIN_TOKEN }}
+          LOGIN: ${{ github.event.issue.user.login || inputs.login }}
+          ACTOR: ${{ github.event.sender.login || github.actor }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'apply' }}
+        run: node scripts/member-invite.mjs
