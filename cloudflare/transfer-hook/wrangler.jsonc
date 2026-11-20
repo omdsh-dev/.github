@@ -3,6 +3,7 @@
   "name": "omdsh-transfer-hook",
   "main": "src/index.js",
   "compatibility_date": "2026-11-20",
+  "routes": [{ "pattern": "hooks.omdsh.dev", "custom_domain": true }],
   "workers_dev": true,
   "observability": { "enabled": true }
 }

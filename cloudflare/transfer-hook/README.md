@@ -22,7 +22,7 @@ wrangler secret put WEBHOOK_SECRET     # random string, shared with the org webh
 
 Settings → Webhooks → Add webhook:
 
-- Payload URL: `https://omdsh-transfer-hook.<account>.workers.dev`
+- Payload URL: `https://hooks.omdsh.dev`
 - Content type: `application/json`
 - Secret: same value as `WEBHOOK_SECRET`
 - Events: **Repository** only
