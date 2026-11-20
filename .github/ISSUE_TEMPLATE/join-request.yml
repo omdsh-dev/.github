@@ -3,6 +3,16 @@ description: 填写 GitHub ID 和申请理由，管理员审批后自动邀请�
 title: "[加入申请] "
 labels: ["join-request"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **申请前请先阅读：**
+
+        - [社区治理规则](https://github.com/omdsh-dev/community/blob/main/GOVERNANCE.zh-CN.md)
+        - [行为准则](https://github.com/omdsh-dev/community/blob/main/CODE_OF_CONDUCT.zh-CN.md)
+        - [参与指南](https://github.com/omdsh-dev/community/blob/main/onboarding/README.zh-CN.md)
+
+        行为准则要点：尊重所有参与者；禁止骚扰、歧视、威胁、人肉搜索、持续扰乱和权限滥用。CoC 事件请通过保密渠道报告，**不要**开公开 Issue。
   - type: input
     id: github_id
     attributes:
@@ -24,5 +34,5 @@ body:
     attributes:
       label: 确认
       options:
-        - label: 我已阅读并同意社区治理规则与行为准则
+        - label: 我已阅读并同意上述治理规则与行为准则
           required: true
