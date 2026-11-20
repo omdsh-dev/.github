@@ -1,20 +1,18 @@
 name: Repository onboarding
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
   workflow_dispatch:
     inputs:
       users:
-        description: "GitHub logins to invite and watch (comma separated)"
+        description: "GitHub logins to invite (comma separated)"
         required: false
         default: ""
       repo:
-        description: "Immediate Admin grant: repository name or owner/name"
+        description: "Repository to grant: name or owner/name"
         required: false
         default: ""
       user:
-        description: "Immediate Admin grant: login to grant"
+        description: "Login that receives the grant"
         required: false
         default: ""
       node_id:
@@ -40,7 +38,7 @@ concurrency:
 jobs:
   onboarding:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
         with:
@@ -48,10 +46,10 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: "22"
-      - name: Invite, watch, and grant
+      - name: Invite and grant
         env:
           GH_TOKEN: ${{ secrets.OMDSH_ADMIN_TOKEN }}
-          MODE: ${{ github.event_name == 'schedule' && 'apply' || inputs.mode }}
+          MODE: ${{ inputs.mode }}
           INVITE: ${{ inputs.users }}
           GRANT_REPO: ${{ inputs.repo }}
           GRANT_USER: ${{ inputs.user }}

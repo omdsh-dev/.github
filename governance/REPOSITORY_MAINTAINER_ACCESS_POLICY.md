@@ -28,11 +28,13 @@ The `Repository maintainer access` workflow runs daily and can also be started m
 - `enforce` grants the registered repository-level Admin permission and verifies the result.
 - Unregistered repositories are reported with their top non-bot contributor as a candidate; no permission is granted.
 
-The `Repository onboarding` workflow runs every ten minutes and covers members and transfers:
+The `Repository onboarding` workflow is dispatched by the organization transfer webhook when a repository is transferred into `omdsh-dev`:
 
-- invites the members listed in the `users` input (organization role `member`) and records a snapshot of the public repositories they own;
-- grants repository-level Admin when a repository they owned moves into the organization, then registers it in `repository-maintainers.json`;
-- supports explicit `repo` and `user` grants for private or otherwise undetected transfers.
+- verifies the repository `node_id` carried by the webhook payload;
+- grants repository-level Admin to the transferrer and registers the repository in `repository-maintainers.json`;
+- can also invite members (`users` input) and perform explicit `repo` and `user` grants for private or otherwise undetected transfers.
+
+The workflow stores no watchlist or repository snapshot.
 
 See `REPOSITORY_ONBOARDING.md` for details.
 
