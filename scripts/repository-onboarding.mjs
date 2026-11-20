@@ -149,7 +149,7 @@ async function isMember(login) {
 async function invite(login) {
   const result = await request(`/orgs/${ORG}/memberships/${login}`, {
     method: "PUT",
-    body: { role: "direct_member" }
+    body: { role: "member" }
   });
   if (result.status >= 400) {
     throw new Error(`invite ${login} -> ${result.status}: ${JSON.stringify(result.data)}`);
