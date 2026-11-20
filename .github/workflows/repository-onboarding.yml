@@ -17,6 +17,10 @@ on:
         description: "Immediate Admin grant: login to grant"
         required: false
         default: ""
+      node_id:
+        description: "Expected repository node ID (webhook verification)"
+        required: false
+        default: ""
       mode:
         description: "Run mode"
         required: true
@@ -51,4 +55,5 @@ jobs:
           INVITE: ${{ inputs.users }}
           GRANT_REPO: ${{ inputs.repo }}
           GRANT_USER: ${{ inputs.user }}
+          EXPECTED_NODE_ID: ${{ inputs.node_id }}
         run: node scripts/repository-onboarding.mjs

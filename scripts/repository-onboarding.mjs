@@ -36,6 +36,7 @@ if (!TOKEN) throw new Error("GH_TOKEN is required");
 const inviteUsers = splitList(process.env.INVITE);
 const grantRepo = (process.env.GRANT_REPO ?? "").trim().replace(/^[^/]+\//, "");
 const grantUser = (process.env.GRANT_USER ?? "").trim().replace(/^@/, "");
+const expectedNodeId = (process.env.EXPECTED_NODE_ID ?? "").trim();
 
 const now = new Date();
 const iso = (date = now) => date.toISOString();
@@ -269,8 +270,12 @@ for (const login of inviteUsers) {
     if (await isMember(login)) {
       summary.alreadyMembers.push(login);
     } else if (MODE === "apply") {
-      const result = await invite(login);
-      summary.invited.push({ user: login, state: result.state });
+      try {
+        const result = await invite(login);
+        summary.invited.push({ user: login, state: result.state });
+      } catch (error) {
+        summary.errors.push({ user: login, error: error.message });
+      }
     } else {
       summary.invited.push({ user: login, state: "would-invite" });
     }
@@ -285,6 +290,12 @@ if (grantRepo && grantUser) {
   const repository = orgByName.get(grantRepo) ?? orgByNode.get(grantRepo);
   if (!repository) {
     summary.errors.push({ user: grantUser, error: `repository ${grantRepo} not found in ${ORG}` });
+  } else if (expectedNodeId && repository.node_id !== expectedNodeId) {
+    summary.errors.push({
+      user: grantUser,
+      repo: repository.name,
+      error: `node_id mismatch: expected ${expectedNodeId}, got ${repository.node_id}`
+    });
   } else {
     try {
       const outcome = registerMaintainer(registry, repository.name, grantUser);
