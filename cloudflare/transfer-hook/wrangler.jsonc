@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "omdsh-transfer-hook",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-20",
+  "account_id": "798cc288096e1beac5cb1611654fdf4a",
+  "workers_dev": true,
+  "observability": { "enabled": true }
+}

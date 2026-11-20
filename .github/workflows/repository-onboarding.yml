@@ -1,0 +1,59 @@
+name: Repository onboarding
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      users:
+        description: "GitHub logins to invite and watch (comma separated)"
+        required: false
+        default: ""
+      repo:
+        description: "Immediate Admin grant: repository name or owner/name"
+        required: false
+        default: ""
+      user:
+        description: "Immediate Admin grant: login to grant"
+        required: false
+        default: ""
+      node_id:
+        description: "Expected repository node ID (webhook verification)"
+        required: false
+        default: ""
+      mode:
+        description: "Run mode"
+        required: true
+        default: apply
+        type: choice
+        options:
+          - apply
+          - dry-run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-onboarding
+  cancel-in-progress: false
+
+jobs:
+  onboarding:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.OMDSH_ADMIN_TOKEN }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - name: Invite, watch, and grant
+        env:
+          GH_TOKEN: ${{ secrets.OMDSH_ADMIN_TOKEN }}
+          MODE: ${{ github.event_name == 'schedule' && 'apply' || inputs.mode }}
+          INVITE: ${{ inputs.users }}
+          GRANT_REPO: ${{ inputs.repo }}
+          GRANT_USER: ${{ inputs.user }}
+          EXPECTED_NODE_ID: ${{ inputs.node_id }}
+        run: node scripts/repository-onboarding.mjs
